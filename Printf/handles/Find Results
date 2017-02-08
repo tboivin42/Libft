@@ -1,0 +1,130 @@
+Searching 16 files for "#include" (case sensitive)
+
+/Users/tboivin/Projet/libft/Printf/ft_printf.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../../includes/ft_printf.h"
+   14  
+   15  int		ft_get_conv(char s, t_flags *f)
+
+/Users/tboivin/Projet/libft/Printf/conv/conv_base.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../includes/ft_printf.h"
+   14  
+   15  void	print_base(t_conv *c, t_flags *f)
+
+/Users/tboivin/Projet/libft/Printf/conv/conv_c.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../includes/ft_printf.h"
+   14  
+   15  void	print_c(t_conv *c, t_flags *f)
+
+/Users/tboivin/Projet/libft/Printf/conv/conv_d.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../includes/ft_printf.h"
+   14  
+   15  void		conv_d(t_conv *c, t_flags *f)
+
+/Users/tboivin/Projet/libft/Printf/conv/conv_hast.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../includes/ft_printf.h"
+   14  
+   15  void	print_hast(t_conv *c, t_flags *f)
+
+/Users/tboivin/Projet/libft/Printf/conv/conv_s.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../includes/ft_printf.h"
+   14  
+   15  void	print_ws(t_conv *c, t_flags *f)
+
+/Users/tboivin/Projet/libft/Printf/get/get.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../includes/ft_printf.h"
+   14  
+   15  void	get_zero(t_conv *c, t_flags *f)
+
+/Users/tboivin/Projet/libft/Printf/get/get_w.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../includes/ft_printf.h"
+   14  
+   15  void	get_zero_w(t_conv *c, t_flags *f)
+
+/Users/tboivin/Projet/libft/Printf/handles/get_flags.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../includes/ft_printf.h"
+   14  
+   15  void	ft_get_mod(char *s, t_flags *f)
+
+/Users/tboivin/Projet/libft/Printf/handles/handle.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../includes/ft_printf.h"
+   14  
+   15  void		handle(t_flags *f, t_conv *c)
+
+/Users/tboivin/Projet/libft/Printf/handles/handle_flags_d.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../includes/ft_printf.h"
+   14  
+   15  void	len_espace(t_conv *c, t_flags *f)
+
+/Users/tboivin/Projet/libft/Printf/handles/setup.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../includes/ft_printf.h"
+   14  
+   15  t_flags		*start_struct(void)
+
+/Users/tboivin/Projet/libft/Printf/tools/ft_itoa_base.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../includes/ft_printf.h"
+   14  
+   15  char	*ft_itoa_base(long int n, int b, int conv)
+
+/Users/tboivin/Projet/libft/Printf/tools/my_itoa.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../includes/ft_printf.h"
+   14  
+   15  char		*ft_litoa(long int n)
+
+/Users/tboivin/Projet/libft/Printf/tools/tools.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../includes/ft_printf.h"
+   14  
+   15  int		ft_cstrwlen_(t_conv *c, t_flags *f, int size)
+
+/Users/tboivin/Projet/libft/Printf/tools/tools2.c:
+   11  /* ************************************************************************** */
+   12  
+   13: #include "../includes/ft_printf.h"
+   14  
+   15  int		ft_putnwchar(t_conv *c, t_flags *f)
+
+16 matches across 16 files
+
+
+Searching 16 files for "#include "../includes/ft_printf.h"
+#include" (case sensitive)
+
+0 matches
+
+Searching 16 files for "#include "../includes/ft_printf.h"
+#include" (case sensitive, whole word)
+
+0 matches
+
+Searching 16 files for "#include "../includes/ft_printf.h"" (case sensitive, whole word)
+
+0 matches
